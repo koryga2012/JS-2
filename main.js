@@ -13,9 +13,9 @@ var userObj = {
     firstName: 'Alex',
     lastName: 'Shenon',
     age: 22,
-    fullName: function() {
-        return 'Alex Shenon'
-    }
+    fullName() {
+        return `${userObj.firstName} ${userObj.lastName}`;
+      }
 }
 console.log(userObj.fullName());
 
